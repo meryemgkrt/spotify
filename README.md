@@ -6,4 +6,4 @@
 
 <p>Bu prejeyi hazıralarken api olarak Rapid Api'den yararlandım</p>
 
-![]()
+![](/images/spotify1.gif)

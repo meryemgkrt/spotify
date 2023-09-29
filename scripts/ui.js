@@ -42,7 +42,7 @@ export const renderSongs = (songs) => {
 export const renderPlayingInfo = (song) => {
   elements.playingInfo.innerHTML = `
           <img
-           id="info-img"
+           id="info img"
            src=${song.img}
     
           />

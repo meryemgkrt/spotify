@@ -43,6 +43,7 @@ const animatePhoto = (e) => {
 const stopAnimation = (e) => {
   const img = document.querySelector(".info img");
   img.classList.remove("animate");
+  console.log(img);
 };
 
 // müziğin çalma olayını izleme

@@ -1,7 +1,8 @@
-import { renderSongs } from "./ui.js";
-//Yapılan istekler için yapılan ayarlar
+import { renderSongs } from './ui.js';
+
+// yapılan istekler için kullnılan ayarlar
 const url =
-  "https://shazam.p.rapidapi.com/charts/track?locale=tr_TR&listId=ip-country-chart-TR";
+  'https://shazam.p.rapidapi.com/charts/track?locale=tr-TR&listId=ip-country-chart-TR';
 
 const options = {
   method: "GET",
@@ -26,8 +27,7 @@ export class API {
   }
   async searchMusic(query) {
     const res = await fetch(
-      `https://shazam.p.rapidapi.com/search?term=${query}&locale=tr-TR
-      `,
+      `https://shazam.p.rapidapi.com/search?term=${query}&locale=tr-TR`,
       options
     );
     const data = await res.json();

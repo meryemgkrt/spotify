@@ -172,11 +172,14 @@ main .songs .list .card figure .play:hover {
 .playing .info img {
   width: 60px;
   border-radius: 50%;
-  animation: turn 2s linear infinite;
 }
 .playing .info p:nth-child(1) {
   margin-bottom: 5px;
   color: rgb(212, 196, 196);
+}
+
+.animate {
+  animation: turn 2s linear infinite;
 }
 
 @keyframes turn {
@@ -186,4 +189,4 @@ main .songs .list .card figure .play:hover {
   to {
     transform: rotate(360deg);
   }
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
